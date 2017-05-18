@@ -5,6 +5,7 @@ public class DriverClass {
 		ArrayList<Ktp> warga = new ArrayList<>();
 		
 		warga.add(new Ktp("123","Oxi","Blitar, 29 Oktober 199","Laki-Laki",2,4,"Ngrendeng","Selorejo","Islam","Belum Kawin","Mahasiswa","Indonesia"));
+		warga.add(new Ktp("345","Zidan","Malang , 31 Februari 2000","Laki-Laki",2,4,"pagelaran","pagelaran","Islam","Belum Kawin","Mahasiswa","Indonesia"));
                 
 	}
 
