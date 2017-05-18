@@ -1,9 +1,8 @@
-
 public class Ktp {
 	private int NIK;
 	private String Nama;
-	private String Tem_La;
-	private String Jen_Kel;
+	private String TTL;
+	private String JK;
 	private int Rt;
 	private int Rw;
 	private String Desa;
@@ -13,12 +12,12 @@ public class Ktp {
 	private String Pekerjaan;
 	private String Kewarganegaraan;
 
-	public void Ktp(int NIK, String Nama, String Tem_La, String Jen_kel, int Rt, int Rw, String Desa, String Kec,
+	public void Ktp(int NIK, String Nama, String TTL, String JK, int Rt, int Rw, String Desa, String Kec,
 			String Agama, String Status_Kawin, String Pekerjaan, String Kewarganegaraan) {
 		this.NIK = NIK;
 		this.Nama = Nama;
-		this.Tem_La = Tem_La;
-		this.Jen_Kel = Jen_Kel;
+		this.setTTL(TTL);
+		this.setJK(JK);
 		this.Rt = Rt;
 		this.Rw = Rw;
 		this.Desa = Desa;
@@ -43,22 +42,6 @@ public class Ktp {
 
 	public void setNama(String nama) {
 		Nama = nama;
-	}
-
-	public String getTem_La() {
-		return Tem_La;
-	}
-
-	public void setTem_La(String tem_La) {
-		Tem_La = tem_La;
-	}
-
-	public String getJen_Kel() {
-		return Jen_Kel;
-	}
-
-	public void setJen_Kel(String jen_Kel) {
-		Jen_Kel = jen_Kel;
 	}
 
 	public int getRt() {
@@ -123,6 +106,22 @@ public class Ktp {
 
 	public void setKewarganegaraan(String kewarganegaraan) {
 		Kewarganegaraan = kewarganegaraan;
+	}
+
+	public String getTTL() {
+		return TTL;
+	}
+
+	public void setTTL(String tTL) {
+		TTL = tTL;
+	}
+
+	public String getJK() {
+		return JK;
+	}
+
+	public void setJK(String jK) {
+		JK = jK;
 	}
 
 }
