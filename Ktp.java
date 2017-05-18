@@ -13,6 +13,22 @@ public class Ktp {
 	private String Pekerjaan;
 	private String Kewarganegaraan;
 
+	public void Ktp(int NIK, String Nama, String Tem_La, String Jen_kel, int Rt, int Rw, String Desa, String Kec,
+			String Agama, String Status_Kawin, String Pekerjaan, String Kewarganegaraan) {
+		this.NIK = NIK;
+		this.Nama = Nama;
+		this.Tem_La = Tem_La;
+		this.Jen_Kel = Jen_Kel;
+		this.Rt = Rt;
+		this.Rw = Rw;
+		this.Desa = Desa;
+		this.Kec = Kec;
+		this.Agama = Agama;
+		this.Status_Kawin = Status_Kawin;
+		this.Kewarganegaraan = Kewarganegaraan;
+		this.Pekerjaan = Pekerjaan;
+	}
+
 	public int getNIK() {
 		return NIK;
 	}
