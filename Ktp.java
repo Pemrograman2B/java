@@ -1,5 +1,5 @@
 public class Ktp {
-	private int NIK;
+	private String NIK;
 	private String Nama;
 	private String TTL;
 	private String JK;
@@ -12,27 +12,29 @@ public class Ktp {
 	private String Pekerjaan;
 	private String Kewarganegaraan;
 
-	public void Ktp(int NIK, String Nama, String TTL, String JK, int Rt, int Rw, String Desa, String Kec,
-			String Agama, String Status_Kawin, String Pekerjaan, String Kewarganegaraan) {
-		this.NIK = NIK;
-		this.Nama = Nama;
-		this.setTTL(TTL);
-		this.setJK(JK);
-		this.Rt = Rt;
-		this.Rw = Rw;
-		this.Desa = Desa;
-		this.Kec = Kec;
-		this.Agama = Agama;
-		this.Status_Kawin = Status_Kawin;
-		this.Kewarganegaraan = Kewarganegaraan;
-		this.Pekerjaan = Pekerjaan;
+	public Ktp(String NIK, String Nama, String TTL, String JK, int Rt, int Rw, String Desa, String Kec, String Agama,
+			String Status_Kawin, String Pekerjaan, String Kewarganegaraan) {
+		
+		setNIK(NIK);
+		setNama(Nama);
+		setTTL(TTL);
+		setJK(JK);
+		setRt(Rt);
+		setRw(Rw);
+		setDesa(Desa);
+		setKec(Kec);
+		setAgama(Agama);
+		setStatus_Kawin(Status_Kawin);
+		setPekerjaan(Pekerjaan);
+		setKewarganegaraan(Kewarganegaraan);
+
 	}
 
-	public int getNIK() {
+	public String getNIK() {
 		return NIK;
 	}
 
-	public void setNIK(int nIK) {
+	public void setNIK(String nIK) {
 		NIK = nIK;
 	}
 
