@@ -23,8 +23,7 @@ public class DriverClass {
 		// nambah orang
 		// int NIK
 		// ,nama,TTL,Age,JK,Alamat,StatusKawin,Kewarganegaraan,Agama,MasaBerlaku
-                //nik,nama,ttl,jk,rt,rw,desa,kec,agama,statuskawin,pekerjaan,kewarganegaraan
-		Ktp gusti = new Ktp("20145564","Gusti Ayu","Blitar-1-September-1961","Perempuan",1,2,"Kepanjen","Lowokwaru","Islam","Kawin","Swasta","WNI");
+                		Ktp gusti = new Ktp("20145564","Gusti Ayu","Blitar-1-September-1961","Perempuan",1,2,"Kepanjen","Lowokwaru","Islam","Kawin","Swasta","WNI");
 		Ktp mari = new Ktp("20147546", "Marilanda", "Samarinda-3-Agustus-1995", "Perempuan", 9, 21, "Paser", "Balikpapan", "Kristen","Belum Kawin","Wiraswasta","WNI");
 		Ktp ande = new Ktp("20147783","Anderia","Jombang-18-Mei-1977","Perempuan",1,9,"Kademangan","Blitar","Islam","Kawin","Swasta","WNI");
 		Ktp syaiful = new Ktp("20157789","Syaifullah","Jakarta,9-Januari-1967","Laki-laki",7,1,"Sampit","Lowokwaru","Islam","Belum Kawin","Swasta","WNI");	
@@ -46,7 +45,6 @@ public class DriverClass {
 		RT4p.put(ditha.getNama(), ditha);
 		RT4p.put(rizka.getNama(), rizka);
 		RT4p.put(fina.getNama(), fina);
-
 
 		// Masukkin er Arraylist untuk sorting
 		List<Ktp> RT1 = new ArrayList<>(RT1p.values());
