@@ -23,68 +23,30 @@ public class DriverClass {
 		// nambah orang
 		// int NIK
 		// ,nama,TTL,Age,JK,Alamat,StatusKawin,Kewarganegaraan,Agama,MasaBerlaku
-		Ktp zidan = new Ktp("1124762761225", "Zidan", "Malang, 31-Feb-1998", "Laki-Laki", 2, 3, "Pagelaran", "Pagelaran", "ISLAM", "BK",
-				"Mahasiswa", "WNI");
-		Ktp scott = new Ktp("2", "Scott", "Samarinda-3-Agustus-1995", "", 9, 21, "L", "Balikpapan", "K", "WNI",
-				"3-Agustus-2018", "Islam");
-		Ktp anna = new Ktp("1", "Jim", "Balikpapan-8-Maret-1996", "Laki-Laki", 1, 1, "L", "Balikpapan", "BK", "WNI",
-				"8-Maret-2018", "Islam");
-		Ktp aanna = new Ktp("1", "Jim", "Balikpapan-8-Maret-1996", "Laki-Laki", 1, 1, "L", "Balikpapan", "BK", "WNI",
-				"8-Maret-2018", "Islam");
-		Ktp ajim = new Ktp("1", "Jim", "Balikpapan-8-Maret-1996", "Laki-Laki", 1, 1, "L", "Balikpapan", "BK", "WNI",
-				"8-Maret-2018", "Islam");
-		Ktp dedi = new Ktp("1", "Jim", "Balikpapan-8-Maret-1996", "Laki-Laki", 1, 1, "L", "Balikpapan", "BK", "WNI",
-				"8-Maret-2018", "Islam");
-		Ktp anggie = new Ktp("1", "Jim", "Balikpapan-8-Maret-1996", "Laki-Laki", 1, 1, "L", "Balikpapan", "BK", "WNI",
-				"8-Maret-2018", "Islam");
-		Ktp hussin = new Ktp("1", "Jim", "Balikpapan-8-Maret-1996", "Laki-Laki", 1, 1, "L", "Balikpapan", "BK", "WNI",
-				"8-Maret-2018", "Islam");
-		Ktp dani = new Ktp("1", "Jim", "Balikpapan-8-Maret-1996", "Laki-Laki", 1, 1, "L", "Balikpapan", "BK", "WNI",
-				"8-Maret-2018", "Islam");
-		Ktp raden = new Ktp("1", "Jim", "Balikpapan-8-Maret-1996", "Laki-Laki", 1, 1, "L", "Balikpapan", "BK", "WNI",
-				"8-Maret-2018", "Islam");
-		Ktp purniawan = new Ktp("1", "Jim", "Balikpapan-8-Maret-1996", "Laki-Laki", 1, 1, "L", "Balikpapan", "BK",
-				"WNI", "8-Maret-2018", "Islam");
-		Ktp ayu = new Ktp("1", "Jim", "Balikpapan-8-Maret-1996", "Laki-Laki", 1, 1, "L", "Balikpapan", "BK", "WNI",
-				"8-Maret-2018", "Islam");
-		Ktp gista = new Ktp("1", "Jim", "Balikpapan-8-Maret-1996", "Laki-Laki", 1, 1, "L", "Balikpapan", "BK", "WNI",
-				"8-Maret-2018", "Islam");
-		Ktp putri = new Ktp("1", "Jim", "Balikpapan-8-Maret-1996", "Laki-Laki", 1, 1, "L", "Balikpapan", "BK", "WNI",
-				"8-Maret-2018", "Islam");
-		Ktp sugeng = new Ktp("1", "Jim", "Balikpapan-8-Maret-1996", "Laki-Laki", 1, 1, "L", "Balikpapan", "BK", "WNI",
-				"8-Maret-2018", "Islam");
-		Ktp parjo = new Ktp("1", "Jim", "Balikpapan-8-Maret-1996", "Laki-Laki", 1, 1, "L", "Balikpapan", "BK", "WNI",
-				"8-Maret-2018", "Islam");
-		Ktp sumiati = new Ktp("1", "Jim", "Balikpapan-8-Maret-1996", "Laki-Laki", 1, 1, "L", "Balikpapan", "BK", "WNI",
-				"8-Maret-2018", "Islam");
-		Ktp ucol = new Ktp("1", "Jim", "Balikpapan-8-Maret-1996", "Laki-Laki", 1, 1, "L", "Balikpapan", "BK", "WNI",
-				"8-Maret-2018", "Islam");
-		Ktp sulis = new Ktp("1", "Jim", "Balikpapan-8-Maret-1996", "Laki-Laki", 1, 1, "L", "Balikpapan", "BK", "WNI",
-				"8-Maret-2018", "Islam");
-		Ktp ninda = new Ktp("1", "Jim", "Balikpapan-8-Maret-1996", "Laki-Laki", 1, 1, "L", "Balikpapan", "BK", "WNI",
-				"8-Maret-2018", "Islam");
-
+		                		Ktp gusti = new Ktp("20145564","Gusti Ayu","Blitar-1-September-1961","Perempuan",1,2,"Kepanjen","Lowokwaru","Islam","Kawin","Swasta","WNI");
+		Ktp mari = new Ktp("20147546", "Marilanda", "Samarinda-3-Agustus-1995", "Perempuan", 2, 21, "Paser", "Balikpapan", "Kristen","Belum Kawin","Wiraswasta","WNI");
+		Ktp ande = new Ktp("20147783","Anderia","Jombang-18-Mei-1977","Perempuan",1,9,"Kademangan","Blitar","Islam","Kawin","Swasta","WNI");
+		Ktp syaiful = new Ktp("20157789","Syaifullah","Jakarta,9-Januari-1967","Laki-laki",3,1,"Sampit","Lowokwaru","Islam","Belum Kawin","Swasta","WNI");	
+		Ktp oka = new Ktp("20179975","Oka Berliano","Blitar-7-Januari-1998","Laki-laki",4,5,"Jone","Tanah Grogot","Islam","Kawin","Swasta","WNI");
+		Ktp farid = new Ktp("20118896","Farid Fatullah","Madura-14-Februari-1998","Laki-laki",5,5,"Pademawu","Pamekasan","Islam","Kawin","Swasta","WNI");
+                Ktp fatma = new Ktp("20176664","Fatmawati","Ambon-25-November-1998","Perempuan",6,12,"Waiheru","Baguala","Budha","Kawin","Mahasiswa","WNI");
+                Ktp ditha = new Ktp("20178943","Ditha Ameilia","Situbondo-8-Mei-1998","Perempuan",7,15,"Awar-awar","Kuamki Baru","Islam","Belum Kawin","Mahasiswa","WNI");
+                Ktp rizka = new Ktp("20145337","Rizka Mouliani","Tanjungpinang-25-Agustus-1998","Perempuan",8,89,"Rejowinangun","Kademangan","Islam","Belum Kawin","Swasta","WNI");
+                Ktp fina = new Ktp("20178894","Fina Afifana","Pamekasan-9-April-1997","Perempuan",1,15,"Gurem","Pamekasan","Islam","Kawin","PNS","WNI");
+                
+		
 		// masukkan orang ke RT tertentu
-		RT1p.put(jim.getNama(), jim);
-		RT1p.put(scott.getNama(), scott);
-		RT2p.put(anna.getNama(), anna);
-		RT2p.put(aanna.getNama(), aanna);
-		RT3p.put(ajim.getNama(), ajim);
-		RT3p.put(dedi.getNama(), dedi);
-		RT3p.put(anggie.getNama(), anggie);
-		RT4p.put(hussin.getNama(), hussin);
-		RT4p.put(dani.getNama(), dani);
-		RT4p.put(raden.getNama(), raden);
-		RT5p.put(purniawan.getNama(), purniawan);
-		RT5p.put(ayu.getNama(), ayu);
-		RT6p.put(gista.getNama(), gista);
-		RT6p.put(putri.getNama(), putri);
-		RT6p.put(sugeng.getNama(), sugeng);
-		RT7p.put(parjo.getNama(), parjo);
-		RT7p.put(sumiati.getNama(), sumiati);
-		RT8p.put(ucol.getNama(), ucol);
-		RT8p.put(sulis.getNama(), sulis);
-		RT8p.put(ninda.getNama(), ninda);
+		RT1p.put(gusti.getNama(), gusti);
+		RT1p.put(mari.getNama(), mari);
+		RT2p.put(ande.getNama(), ande);
+		RT2p.put(syaiful.getNama(), syaiful);
+		RT3p.put(oka.getNama(), oka);
+		RT3p.put(farid.getNama(), farid);
+		RT3p.put(fatma.getNama(), fatma);
+		RT4p.put(ditha.getNama(), ditha);
+		RT4p.put(rizka.getNama(), rizka);
+		RT4p.put(fina.getNama(), fina);
+               
 
 		// Masukkin er Arraylist untuk sorting
 		List<Ktp> RT1 = new ArrayList<>(RT1p.values());
