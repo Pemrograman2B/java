@@ -23,8 +23,8 @@ public class DriverClass {
 		// nambah orang
 		// int NIK
 		// ,nama,TTL,Age,JK,Alamat,StatusKawin,Kewarganegaraan,Agama,MasaBerlaku
-		Ktp jim = new Ktp("1", "Jim", "Balikpapan-8-Maret-1996", "Laki-Laki", 1, 1, "L", "Balikpapan", "BK", "WNI",
-				"8-Maret-2018", "Islam");
+		Ktp zidan = new Ktp("1124762761225", "Zidan", "Malang, 31-Feb-1998", "Laki-Laki", 2, 3, "Pagelaran", "Pagelaran", "ISLAM", "BK",
+				"Mahasiswa", "WNI");
 		Ktp scott = new Ktp("2", "Scott", "Samarinda-3-Agustus-1995", "", 9, 21, "L", "Balikpapan", "K", "WNI",
 				"3-Agustus-2018", "Islam");
 		Ktp anna = new Ktp("1", "Jim", "Balikpapan-8-Maret-1996", "Laki-Laki", 1, 1, "L", "Balikpapan", "BK", "WNI",
