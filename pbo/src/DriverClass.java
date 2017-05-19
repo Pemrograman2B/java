@@ -35,23 +35,23 @@ public class DriverClass {
                 Ktp fina = new Ktp("20178894","Fina Afifana","Pamekasan-9-April-1997","Perempuan",9,15,"Gurem","Pamekasan","Islam","Kawin","PNS","WNI");
                 Ktp rena = new Ktp("2016103703", "Rena putri", "Mojokerto, 14-April-1998", "Perempuan", 2, 1, "Kutoporong", "Bangsal", "ISLAM", "Menikah",
 				"Mahasiswa", "WNI");
-		Ktp wicak = new Ktp("2016103403", "Wicaksono Prawiro", "Mojokerto, 17-Januari-1991", "Laki-Laki", 5, 2, "Jabon", "Mojoanyar", "ISLAM", "Menikah",
+		Ktp wicak = new Ktp("2016103403", "Wicaksono Prawiro", "Mojokerto, 17-Januari-1991", "Laki-Laki", 1, 2, "Jabon", "Mojoanyar", "ISLAM", "Menikah",
 				"Wiraswasta", "WNI");
-		Ktp kevin = new Ktp("2016103503", "Kevin Adinata", "Bandung, 15-Oktober-1997", "Laki-Laki", 16, 9, "Gayam", "Bangsal", "ISLAM", "Belum Menikah",
+		Ktp kevin = new Ktp("2016103503", "Kevin Adinata", "Bandung, 15-Oktober-1997", "Laki-Laki", 2, 9, "Gayam", "Bangsal", "ISLAM", "Belum Menikah",
 				"PNS", "WNI");
-		Ktp finis = new Ktp("2016103603", "Finishtri Demiasih", "Aceh, 15-Mei-1994", "Perempuan", 13, 5, "Gebangmalang", "Mojoanyar", "ISLAM", "Cerai",
+		Ktp finis = new Ktp("2016103603", "Finishtri Demiasih", "Aceh, 15-Mei-1994", "Perempuan", 3, 5, "Gebangmalang", "Mojoanyar", "ISLAM", "Cerai",
 				"Wiraswasta", "WNI");
-		Ktp ou = new Ktp("2016103803", "Ourievia Stevani", "Sidoarjo, 6-Februari-1993", "Perempuan", 5, 4, "Bukittinggi", "Banuhampu", "ISLAM", "Menikah",
+		Ktp ou = new Ktp("2016103803", "Ourievia Stevani", "Sidoarjo, 6-Februari-1993", "Perempuan", 4, 4, "Bukittinggi", "Banuhampu", "ISLAM", "Menikah",
 				"Ibu rumah tangga", "WNI");
-		Ktp gladis = new Ktp("2016103903", "Gladiska Fristia", "Trenggalek, 28-Februari-1991", "Perempuan", 6, 3, "PandaiSingkek", "Kubang Putiah", "ISLAM", "Belum Menikah",
+		Ktp gladis = new Ktp("2016103903", "Gladiska Fristia", "Trenggalek, 28-Februari-1991", "Perempuan", 5, 3, "PandaiSingkek", "Kubang Putiah", "ISLAM", "Belum Menikah",
 				"Mahasiswa", "WNI");
-		Ktp ray = new Ktp("2016103104", "Rayhan", "Cipanas, 8-Maret-1995", "Laki-Laki", 17, 8, "Tirto", "Landungsari", "ISLAM", "Belum Menikah",
+		Ktp ray = new Ktp("2016103104", "Rayhan", "Cipanas, 8-Maret-1995", "Laki-Laki", 6, 8, "Tirto", "Landungsari", "ISLAM", "Belum Menikah",
 				"Mahasiswa", "WNI");
-		Ktp nia = new Ktp("2016110330", "Nia Dwi", "Balikpapan, 19-Oktober-1997", "Perempuan", 22, 5, "Jone", "Tanah Grogot", "ISLAM", "Belum Menikah",
+		Ktp nia = new Ktp("2016110330", "Nia Dwi", "Balikpapan, 19-Oktober-1997", "Perempuan", 7, 5, "Jone", "Tanah Grogot", "ISLAM", "Belum Menikah",
 				"Mahasiswa", "WNI");
-		Ktp danker = new Ktp("20161110220", "Danker Arkeb", "Padang, 19-September-1997", "Laki-Laki", 1, 1, "Keboan", "Meri", "ISLAM", "Belum Menikah",
+		Ktp danker = new Ktp("20161110220", "Danker Arkeb", "Padang, 19-September-1997", "Laki-Laki", 8, 1, "Keboan", "Meri", "ISLAM", "Belum Menikah",
 				"Wiraswasta", "WNI");
-		Ktp putra = new Ktp("2016110440", "Putra Ardiansyah", "Madura, 17-Maret-1994", "Laki-Laki", 7, 5, "Puloniti", "Bangsal", "ISLAM", "Menikah",
+		Ktp putra = new Ktp("2016110440", "Putra Ardiansyah", "Madura, 17-Maret-1994", "Laki-Laki", 1, 5, "Puloniti", "Bangsal", "ISLAM", "Menikah",
 				"PNS", "WNI");
 		
 		// masukkan orang ke RT tertentu
@@ -65,16 +65,16 @@ public class DriverClass {
 		RT4p.put(ditha.getNama(), ditha);
 		RT4p.put(rizka.getNama(), rizka);
 		RT4p.put(fina.getNama(), fina);
-                RT1p.put(rena.getNama(), rena);
+                RT2p.put(rena.getNama(), rena);
 		RT1p.put(wicak.getNama(), wicak);
 		RT2p.put(kevin.getNama(), kevin);
-		RT2p.put(finis.getNama(), finis);
-		RT3p.put(ou.getNama(), ou);
-		RT3p.put(gladis.getNama(), gladis);
-		RT3p.put(ray.getNama(), ray);
-		RT4p.put(nia.getNama(), nia);
-		RT4p.put(danker.getNama(), danker);
-		RT4p.put(putra.getNama(), putra);
+		RT3p.put(finis.getNama(), finis);
+		RT4p.put(ou.getNama(), ou);
+		RT5p.put(gladis.getNama(), gladis);
+		RT6p.put(ray.getNama(), ray);
+		RT7p.put(nia.getNama(), nia);
+		RT8p.put(danker.getNama(), danker);
+		RT1p.put(putra.getNama(), putra);
                 
 		// Masukkin er Arraylist untuk sorting
 		List<Ktp> RT1 = new ArrayList<>(RT1p.values());
