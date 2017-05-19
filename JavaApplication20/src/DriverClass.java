@@ -46,16 +46,7 @@ public class DriverClass {
 		RT4p.put(ditha.getNama(), ditha);
 		RT4p.put(rizka.getNama(), rizka);
 		RT4p.put(fina.getNama(), fina);
-		RT5p.put(purniawan.getNama(), purniawan);
-		RT5p.put(ayu.getNama(), ayu);
-		RT6p.put(gista.getNama(), gista);
-		RT6p.put(putri.getNama(), putri);
-		RT6p.put(sugeng.getNama(), sugeng);
-		RT7p.put(parjo.getNama(), parjo);
-		RT7p.put(sumiati.getNama(), sumiati);
-		RT8p.put(ucol.getNama(), ucol);
-		RT8p.put(sulis.getNama(), sulis);
-		RT8p.put(ninda.getNama(), ninda);
+
 
 		// Masukkin er Arraylist untuk sorting
 		List<Ktp> RT1 = new ArrayList<>(RT1p.values());
