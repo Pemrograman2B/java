@@ -20,9 +20,6 @@ public class DriverClass {
 		Map<String, Ktp> RT7p = new HashMap<>();
 		Map<String, Ktp> RT8p = new HashMap<>();
 
-		// nambah orang
-		// int NIK
-		// ,nama,TTL,Age,JK,Alamat,StatusKawin,Kewarganegaraan,Agama,MasaBerlaku
         Ktp gusti = new Ktp("20145564","Gusti Ayu","Blitar-1-September-1961","Perempuan",1,2,"Kepanjen","Lowokwaru","Islam","Kawin","Swasta","WNI");
 		Ktp mari = new Ktp("20147546", "Marilanda", "Samarinda-3-Agustus-1995", "Perempuan", 2, 21, "Paser", "Balikpapan", "Kristen","Belum Kawin","Wiraswasta","WNI");
 		Ktp ande = new Ktp("20147783","Anderia","Jombang-18-Mei-1977","Perempuan",1,9,"Kademangan","Blitar","Islam","Kawin","Swasta","WNI");
@@ -44,7 +41,6 @@ public class DriverClass {
 		Ktp danker = new Ktp("20161110220", "Danker Arkeb", "Padang, 19-September-1997", "Laki-Laki", 8, 1, "Keboan", "Meri", "ISLAM", "Belum Menikah","Wiraswasta", "WNI");
 		Ktp putra = new Ktp("2016110440", "Putra Ardiansyah", "Madura, 17-Maret-1994", "Laki-Laki", 1, 5, "Puloniti", "Bangsal", "ISLAM", "Menikah","PNS", "WNI");
 		
-		// masukkan orang ke RT tertentu
 		RT1p.put(gusti.getNama(), gusti);
 		RT1p.put(mari.getNama(), mari);
 		RT2p.put(ande.getNama(), ande);
@@ -66,7 +62,6 @@ public class DriverClass {
 		RT8p.put(danker.getNama(), danker);
 		RT1p.put(putra.getNama(), putra);
                 
-		// Masukkin er Arraylist untuk sorting
 		List<Ktp> RT1 = new ArrayList<>(RT1p.values());
 		List<Ktp> RT2 = new ArrayList<>(RT2p.values());
 		List<Ktp> RT3 = new ArrayList<>(RT3p.values());
@@ -76,9 +71,7 @@ public class DriverClass {
 		List<Ktp> RT7 = new ArrayList<>(RT7p.values());
 		List<Ktp> RT8 = new ArrayList<>(RT8p.values());
 
-		// sorting
-
-		// menampilkan
+	
 		int i;
 		System.out.println("DATA PENDUDUK KECAMATAN NGALAM BRO");
 		System.out.println("Daftar Kelurahan    :");
@@ -86,7 +79,6 @@ public class DriverClass {
 		System.out.println("\nMasukkan Pilihan : ");
 		i = input.nextInt();
 
-		// kelurahan Margo Mulyo
 		if (i == 1) {
 			System.out.println("Daftar RT di Kelurahan Merjosari:");
 			System.out.println("1.RT 1\n2.RT 2\n3.RT 3\n4.RT 4");
@@ -124,7 +116,6 @@ public class DriverClass {
 			}
 		}
 
-		// kelurahan Kampung Baru Ulu
 		else if (i == 2) {
 			System.out.println("Daftar RT di Kelurahan Tirto utomo");
 			System.out.println("1.RT 5\n2.RT 6\n3.RT 7\n4.RT 8");
